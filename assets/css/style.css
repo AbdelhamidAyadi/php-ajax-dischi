@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e2d3b;
+    min-height: 100vh;
+    position: relative;
+}
+
+.container_costum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #2e3a46;
+
+
+
+}
+
+.container_costum img {
+    height: 50px;
+}
+
+.container_costum select {
+    margin: 0 15px;
+}
