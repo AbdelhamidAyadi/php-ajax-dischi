@@ -49,11 +49,11 @@
         <main>
 
             <div class="mega_container_songs">
-                <div v-for=" element in songs " class="container_songs">
+                <div v-for=" element in songs " class="container_song">
                     <img :src="element.poster" alt="">
-                    <h2>{{title}}</h2>
-                    <p>{{author}}</p>
-                    <p>{{year}}</p>
+                    <h2>{{element.title}}</h2>
+                    <p>{{element.author}}</p>
+                    <p>{{element.year}}</p>
                 </div>
 
             </div>
