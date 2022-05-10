@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e2d3b;
+    min-height: 100vh;
+    position: relative;
+}
+.mega_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+  }
+.container_costum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #2e3a46;
+
+}
+
+.container_costum img {
+    height: 50px;
+}
+
+.container_costum select {
+    margin: 0 15px;
+}
+
+.container_song {
+    display: inline-block;
+    background-color: #2e3a46;
+    width: calc((100% / 5) - 20px);
+    padding: 20px 10px;
+    margin: 30px 10px;
+    text-align: center;
+}
+
+.container_song img {
+    width: 80%;
+}
+
+.container_song h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: medium;
+    margin: 15px 0;
+}
+
+.container_song p {
+    color: grey;
+}

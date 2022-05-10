@@ -4,7 +4,7 @@ var app = new Vue({
         songs : [],
     },
     created(){
-        axios.get('http://localhost/php-ajax-dischi/api/database.php')
+        axios.get('http://localhost/php-ajax-dischi/Milestone%202/api/database.php')
            .then((res) => {
                this.songs = res.data
            })
